@@ -1,6 +1,6 @@
 #! Clone your GitHub repository
-git clone <GitHub_Repo_Clone_URL>
-cd <GitHub_Repo_Name>
+git clone https://github.com/Celnet-hub/aws_codedeploy_using_github.git
+cd aws_codedeploy_using_github
 
 #! Create a Jenkinsfile
 #! Replace the label as per your Node label
