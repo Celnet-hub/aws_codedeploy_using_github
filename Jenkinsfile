@@ -1,9 +1,9 @@
-## Clone your GitHub repository
+#! Clone your GitHub repository
 git clone <GitHub_Repo_Clone_URL>
 cd <GitHub_Repo_Name>
 
-## Create a Jenkinsfile
-## Replace the label as per your Node label
+#! Create a Jenkinsfile
+#! Replace the label as per your Node label
 cat <<EOF > Jenkinsfile
 pipeline {
          agent {
@@ -28,7 +28,7 @@ pipeline {
               }
 }
 EOF
-## Push the changes to your GitHub repository
+#! Push the changes to your GitHub repository
 git add Jenkinsfile
 git commit -m "pipeline def added"
 git push
